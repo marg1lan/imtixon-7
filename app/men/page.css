@@ -1,0 +1,75 @@
+.umumiyy {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+     flex-wrap: wrap;
+    gap: 100px;
+    }
+.like{
+    margin-left: 800px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.all{
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+  .card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .card:hover{
+    transform: scale(1.1);
+  }
+  
+  .card-image {
+    height: 200px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .card-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+  .liked-card{
+    border: 4px solid lightgray;
+    gap:20px
+  }
